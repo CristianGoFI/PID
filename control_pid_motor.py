@@ -11,6 +11,7 @@ MotorIN2 = 14
 MotorE1 = 18
 """ Encoder variables """
 globalCounter = 0
+
 gain=0.97593582887
 flag = 0
 Last_RoB_Status = 0.0
