@@ -10,6 +10,7 @@ pca = adafruit_pca9685.PCA9685(i2c)
 #asignamos la frecuencia del PWM
 pca.frequency = 60
 
+
 #enviamos el PWM al Pin deseado, con 
 pca.channels[0].duty_cycle = 0x7FFF
 
